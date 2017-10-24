@@ -7388,11 +7388,11 @@ h6 {
         float: left;
         width: 41.6666666667%; } }
     .booking-fig h2 {
-      font-family: Oswald;
+      font-family: "Oswald";
       font-size: 30px;
       color: #232a32;
       font-weight: 400;
-      
+      text-transform: uppercase;
       text-align: center;
       position: relative; }
       .booking-fig h2:after {
