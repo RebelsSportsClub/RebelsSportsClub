@@ -6976,7 +6976,7 @@ h6 {
 .widget-product {
   position: relative;
   float: left;
-  width: 90%;
+  width: 50%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -7101,7 +7101,7 @@ h6 {
   .widget-newsdetails li a:hover .widget-newsinfo p {
     color: #b81e20; } }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .footer-widget .widget-about, .footer-widget .widget-news, .footer-widget .widget-product, .footer-widget .widget-comment {
     width: 80%;
     float: none;
