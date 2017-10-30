@@ -12,15 +12,15 @@ function cricketTab(){
 	 document.getElementById('latestResult-h4').innerHTML  = 'Rebels Winter League';
 	 document.getElementById('latestResult-p').innerHTML  = 'Rebels Winter League inter club team tournaments latest score';
 	 
-     document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/vipers.png)';
+     document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team1-name').innerHTML  = 'Rebel Vipers';
 	 document.getElementById('latestResult-team1-result').innerHTML  = 'Lost';
 	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Red Viper (112*)';
 	 
 	 
-	 document.getElementById('latestResult-team1-score').innerHTML  = '264/10';
-	 document.getElementById('latestResult-team2-score').innerHTML  = '268/4';
-	 document.getElementById('latestResult-date').innerHTML  = '7th October 2017 - ';
+	 document.getElementById('latestResult-team1-score').innerHTML  = '50/7';
+	 document.getElementById('latestResult-team2-score').innerHTML  = '52/4';
+	 document.getElementById('latestResult-date').innerHTML  = '28th October 2017 - ';
 	 document.getElementById('latestResult-time').innerHTML  = '7:00 PM';
 	 document.getElementById('latestResult-place').innerHTML  = 'Regina';
 	 document.getElementById('latestResult-country').innerHTML  = 'Canada';
@@ -40,15 +40,15 @@ function cricketTab(){
 	 logoimg1.src="images/matchResult/wolves.png";
 	 
 	 var logoimg2 = document.getElementById("nextMatch-logo2");
-	 logoimg2.src="images/matchResult/vipers.png";
+	 logoimg2.src="images/matchResult/eagles.png";
 	 
-	 document.getElementById('nextMatch-dateTime').innerHTML  = 'October 14, 2017 | 7:00 PM';
+	 document.getElementById('nextMatch-dateTime').innerHTML  = 'November 04, 2017 | 7:00 PM';
 	 document.getElementById('nextMatch-place').innerHTML  = 'Regina (Canada)';
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	 
 	// Set the date we're counting down to
-	var countDownDate = new Date("Oct 14, 2017 15:00:00").getTime();
+	var countDownDate = new Date("Nov 4, 2017 15:00:00").getTime();
 
 	// Update the count down every 1 second
 	xc = setInterval(function() {
@@ -85,15 +85,15 @@ function cricketTab(){
 	 
 	
 
-	document.getElementById("hTeam1").innerHTML = "Rebel Team 1";
-	document.getElementById("aTeam1").innerHTML = "Rebel Team 2";
-	document.getElementById("Team1-Fix-Date").innerHTML = "ETA";
-	document.getElementById("Team1-Fix-Time").innerHTML = "ETA";
+	document.getElementById("hTeam1").innerHTML = "Rebel Eagles";
+	document.getElementById("aTeam1").innerHTML = "Rebel Wolves";
+	document.getElementById("Team1-Fix-Date").innerHTML = "Nov 4, 2017";
+	document.getElementById("Team1-Fix-Time").innerHTML = "7:00 PM";
 	
-	document.getElementById("hTeam2").innerHTML = "Rebel Team 3";
-	document.getElementById("aTeam2").innerHTML = "Rebel Team 4";
-	document.getElementById("Team2-Fix-Date").innerHTML = "ETA";
-	document.getElementById("Team2-Fix-Time").innerHTML = "ETA";
+	document.getElementById("hTeam2").innerHTML = "Rebel Wolves";
+	document.getElementById("aTeam2").innerHTML = "Rebel Dragons";
+	document.getElementById("Team2-Fix-Date").innerHTML = "Nov 11, 2017";
+	document.getElementById("Team2-Fix-Time").innerHTML = "7:00 PM";
 	
 	document.getElementById("hTeam3").innerHTML = "Rebel Team 1";
 	document.getElementById("aTeam3").innerHTML = "Rebel Team 4";
@@ -120,32 +120,15 @@ function cricketTab(){
 	
 	document.getElementById("pointsTable-p").innerHTML = "Rebels Winter League - 2017 points table";
 	
-	document.getElementById("pointTable-team1").innerHTML = "Rebel Team 1";
-	document.getElementById("teamPoint1").innerHTML = "10";
+	document.getElementById("pointTable-team1").innerHTML = "Rebel Dragons";
+	document.getElementById("teamPoint1").innerHTML = "0";
 	
-	document.getElementById("pointTable-team2").innerHTML = "Rebel Team 2";
-	document.getElementById("teamPoint2").innerHTML = "10";
+	document.getElementById("pointTable-team2").innerHTML = "Rebel Wolves";
+	document.getElementById("teamPoint2").innerHTML = "0";
 	
-	document.getElementById("pointTable-team3").innerHTML = "Rebel Team 3";
-	document.getElementById("teamPoint3").innerHTML = "10";
+	document.getElementById("pointTable-team3").innerHTML = "Rebel Eagles";
+	document.getElementById("teamPoint3").innerHTML = "0";
 	
-	document.getElementById("pointTable-team4").innerHTML = "Rebel Team 4";
-	document.getElementById("teamPoint4").innerHTML = "10";
-	
-	document.getElementById("pointTable-team5").innerHTML = "Rebel Team 5";
-	document.getElementById("teamPoint6").innerHTML = "10";
-	
-	document.getElementById("pointTable-team6").innerHTML = "Rebel Team 6";
-	document.getElementById("teamPoint6").innerHTML = "10";
-	
-	document.getElementById("pointTable-team7").innerHTML = "Rebel Team 7";
-	document.getElementById("teamPoint7").innerHTML = "10";
-	
-	document.getElementById("pointTable-team8").innerHTML = "Rebel Team 8";
-	document.getElementById("teamPoint8").innerHTML = "10";
-	
-	document.getElementById("pointTable-team9").innerHTML = "Rebel Team 9";
-	document.getElementById("teamPoint9").innerHTML = "10";
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
