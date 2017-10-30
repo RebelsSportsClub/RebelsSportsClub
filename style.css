@@ -6974,21 +6974,20 @@ h6 {
     width: 80%; }
 
 .widget-product {
-	
-  position: absolute;
+  position: relative;
   float: left;
-  width: auto;
+  width: 50%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  position: absolute;
+  position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 992px) {
     .widget-product {
       float: left;
-      width: auto; } }
+      width: 25%; } }
 
 .widget-comment {
   position: relative;
