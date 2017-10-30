@@ -12,7 +12,7 @@ function cricketTab(){
 	 document.getElementById('latestResult-h4').innerHTML  = 'Rebels Winter League';
 	 document.getElementById('latestResult-p').innerHTML  = 'Rebels Winter League inter club team tournaments latest score';
 	 
-     document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/eagles.png)';
+     document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team1-name').innerHTML  = 'Rebel Wolves';
 	 document.getElementById('latestResult-team1-result').innerHTML  = 'Lost';
 	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Red Viper (112*)';
