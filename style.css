@@ -6974,7 +6974,7 @@ h6 {
     width: 80%; }
 
 .widget-product {
-  margin-left: 80px;
+  margin: 9px 13px 9px 0;
   position: relative;
   float: left;
   width: 50%;
@@ -6991,7 +6991,7 @@ h6 {
       width: 25%; } }
 	  
 .widget-product1 {
-  margin: 9px 25px 9px 0;
+  margin-left: 80px;
   position: relative;
   float: left;
   width: 50%;
