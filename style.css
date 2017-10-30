@@ -6989,6 +6989,23 @@ h6 {
     .widget-product {
       float: left;
       width: 25%; } }
+	  
+.widget-product1 {
+  margin: 9px 25px 9px 0;
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .widget-product1 {
+      float: left;
+      width: 25%; } }
 
 .widget-comment {
   position: relative;
