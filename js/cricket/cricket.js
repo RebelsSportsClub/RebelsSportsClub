@@ -26,7 +26,7 @@ function cricketTab(){
 	 document.getElementById('latestResult-country').innerHTML  = 'Canada';
 	 
 	 
-	 document.getElementById('latestResult-badge2').style = 'background:url(images/team-logo/dragons.png)';
+	 document.getElementById('latestResult-badge2').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team2-name').innerHTML  = 'Rebel Dragons';
 	 document.getElementById('latestResult-team2-result').innerHTML  = 'Win';
 	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jon Snow (186*)';
