@@ -6974,7 +6974,7 @@ h6 {
     width: 80%; }
 
 .widget-product {
-  display:inline-block;
+	
   position: absolute;
   float: left;
   width: auto;
