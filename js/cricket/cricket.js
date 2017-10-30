@@ -10,12 +10,12 @@ function cricketTab(){
 	clearInterval(xb);
 	
 	 document.getElementById('latestResult-h4').innerHTML  = 'Rebels Winter League';
-	 document.getElementById('latestResult-p').innerHTML  = 'Rebels Winter League inter club team tournaments latest score';
+	 document.getElementById('latestResult-p').innerHTML  = 'Rebels Winter League inter club team tournaments latest score. Each team will play 10 overs. Results are based on the final score of each team.';
 	 
      document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team1-name').innerHTML  = 'Rebel Wolves';
 	 document.getElementById('latestResult-team1-result').innerHTML  = 'Lost';
-	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Red Viper (112*)';
+	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Red Viper (12*)';
 	 
 	 
 	 document.getElementById('latestResult-team1-score').innerHTML  = '50/7';
@@ -29,7 +29,7 @@ function cricketTab(){
 	 document.getElementById('latestResult-badge2').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team2-name').innerHTML  = 'Rebel Dragons';
 	 document.getElementById('latestResult-team2-result').innerHTML  = 'Win';
-	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jon Snow (186*)';
+	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jon Snow (18*)';
 	 
 	 
 	 document.getElementById('matchSchedule').innerHTML  = 'Rebels Cricket has all around the year activities. The team participates in Regina Cricket Association T20 league during summers and conducts its own Fall/Winter inter-club league. The Rebels Cricket has four inter club teams who play against each other.';
@@ -37,10 +37,10 @@ function cricketTab(){
 	 document.getElementById('nextMatch-p').innerHTML  = 'Upcomming match in the Rebels Winter League -2017';
 	 
 	 var logoimg1 = document.getElementById("nextMatch-logo1");
-	 logoimg1.src="images/matchResult/wolves.png";
+	 logoimg1.src="images/matchResult/eagles.png";
 	 
 	 var logoimg2 = document.getElementById("nextMatch-logo2");
-	 logoimg2.src="images/matchResult/eagles.png";
+	 logoimg2.src="images/matchResult/wolves.png";
 	 
 	 document.getElementById('nextMatch-dateTime').innerHTML  = 'November 04, 2017 | 7:00 PM';
 	 document.getElementById('nextMatch-place').innerHTML  = 'Regina (Canada)';
@@ -49,6 +49,8 @@ function cricketTab(){
 	 
 	// Set the date we're counting down to
 	var countDownDate = new Date("Nov 4, 2017 15:00:00").getTime();
+	
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 
 	// Update the count down every 1 second
 	xc = setInterval(function() {
