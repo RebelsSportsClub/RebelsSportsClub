@@ -92,7 +92,7 @@ function cricketTab(){
 	document.getElementById("Team1-Fix-Date").innerHTML = "Nov 4, 2017";
 	document.getElementById("Team1-Fix-Time").innerHTML = "7:00 PM";
 	
-	document.getElementById("hTeam2").innerHTML = "Rebel Wolves";
+/*	document.getElementById("hTeam2").innerHTML = "Rebel Wolves";
 	document.getElementById("aTeam2").innerHTML = "Rebel Dragons";
 	document.getElementById("Team2-Fix-Date").innerHTML = "Nov 11, 2017";
 	document.getElementById("Team2-Fix-Time").innerHTML = "7:00 PM";
@@ -116,7 +116,7 @@ function cricketTab(){
 	document.getElementById("aTeam6").innerHTML = "Rebel Team 4";
 	document.getElementById("Team6-Fix-Date").innerHTML = "ETA";
 	document.getElementById("Team6-Fix-Time").innerHTML = "ETA";
-	
+*/	
 	
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
