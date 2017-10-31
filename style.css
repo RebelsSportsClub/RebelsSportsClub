@@ -8177,10 +8177,10 @@ section {
     list-style-type: none;
     overflow: hidden; }
     .news_display_container ul li {
-      display: block;
+      display: inline-block;
       position: relative;
       float: left;
-      width: 50%;
+      width: 100%;
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px;
