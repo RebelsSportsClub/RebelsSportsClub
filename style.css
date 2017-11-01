@@ -8173,24 +8173,7 @@ section {
 .news_display_container {
   padding: 70px 0;
   position: relative; }
-  .news_display_container ul {
-    list-style-type: none;
-    overflow: hidden; }
-    .news_display_container ul li {
-      
-      position: relative;
-      float: left;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px;
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px; }
-      @media (min-width: 992px) {
-        .news_display_container ul li {
-          float: left;
-          width: 350%; } }
+
   .news_display_container .figure {
     display: block; }
   .news_display_container .figure-01 {
