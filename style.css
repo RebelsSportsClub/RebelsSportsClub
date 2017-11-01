@@ -8191,7 +8191,7 @@ section {
       @media (min-width: 992px) {
         .news_display_container ul li {
           float: left;
-          width: 50%; } }
+          width: 350%; } }
   .news_display_container .figure {
     display: block; }
   .news_display_container .figure-01 {
