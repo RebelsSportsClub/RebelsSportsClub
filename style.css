@@ -6974,7 +6974,6 @@ h6 {
     width: 80%; }
 
 .widget-product {
-  margin: 9px 13px 9px 0;
   position: relative;
   float: left;
   width: 50%;
@@ -6987,23 +6986,6 @@ h6 {
   padding-right: 15px; }
   @media (min-width: 992px) {
     .widget-product {
-      float: left;
-      width: 25%; } }
-	  
-.widget-product1 {
-  margin-left: 80px;
-  position: relative;
-  float: left;
-  width: 50%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 992px) {
-    .widget-product1 {
       float: left;
       width: 25%; } }
 
@@ -7406,7 +7388,7 @@ h6 {
         float: left;
         width: 41.6666666667%; } }
     .booking-fig h2 {
-      font-family: "Oswald";
+      font-family: "Oswald", sans-serif;
       font-size: 30px;
       color: #232a32;
       font-weight: 400;
@@ -8173,7 +8155,25 @@ section {
 .news_display_container {
   padding: 70px 0;
   position: relative; }
-
+  .news_display_container ul {
+    list-style-type: none;
+    overflow: hidden; }
+    .news_display_container ul li {
+      display: block;
+      position: relative;
+      float: left;
+      width: 50%;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      @media (min-width: 992px) {
+        .news_display_container ul li {
+          float: left;
+          width: 25%; } }
   .news_display_container .figure {
     display: block; }
   .news_display_container .figure-01 {
@@ -9717,7 +9717,7 @@ a.blacklrnmore {
       .social-share .social-wraps a.twitter-icon:hover {
         color: #41b5cb; }
       .social-share .social-wraps a.behance-icon:hover {
-        color: ##fc0202; }
+        color: #41b5cb; }
     .social-share .social-wraps i {
       font-size: 16px;
       margin: 3px 15px; }
