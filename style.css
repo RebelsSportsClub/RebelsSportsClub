@@ -8177,7 +8177,7 @@ section {
     list-style-type: none;
     overflow: hidden; }
     .news_display_container ul li {
-      display: flex;
+      display: inline-table;
       align-items: stretch; /* Default */
       justify-content: space-between;
       float: left;
