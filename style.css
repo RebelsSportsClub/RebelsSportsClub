@@ -8177,7 +8177,7 @@ section {
     list-style-type: none;
     overflow: hidden; }
     .news_display_container ul li {
-      display: inline-table;
+      
       position: relative;
       float: left;
       min-height: 1px;
