@@ -521,8 +521,8 @@ $(document).ready(function () {
         var videourl = $this.data('yt-video');
         if(videoElement.data('current-video') !== videourl){
 			videoElement2.src = videourl;
-            videoElement1.html('<iframe src="http://www.youtube.com/embed/' + videourl + '" class="liveVideo" allowfullscreen=""></iframe>');
-            videoElement1.attr('data-current-video', videourl);
+            //videoElement1.html('<iframe src="http://www.youtube.com/embed/' + videourl + '" class="liveVideo" allowfullscreen=""></iframe>');
+           // videoElement1.attr('data-current-video', videourl);
         }
         parentli.addClass('active');
     });
