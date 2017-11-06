@@ -10,7 +10,7 @@ function cricketTab(){
 	clearInterval(xb);
 	
 	 document.getElementById('latestResult-h4').innerHTML  = 'Rebels Winter League';
-	 document.getElementById('latestResult-p').innerHTML  = 'Rebels Winter League inter club team tournaments latest score. Each team will play 10 overs. Results are based on the final score of each team.';
+	 document.getElementById('latestResult-p').innerHTML  = 'Rebels Winter League inter club team tournaments latest score. Each team will play 5 overs. Results are based on the final score of each team.';
 	 
      document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team1-name').innerHTML  = 'Rebel Wolves';
