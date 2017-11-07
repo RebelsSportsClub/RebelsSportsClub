@@ -3,6 +3,20 @@
 
 <head>
     <meta charset="utf-8" />
+	
+<!----------------------|| 1.1 Global site tag (gtag.js) - Google Analytics ||---------------------------------------->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108864949-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108864949-1');
+</script>
+<!----------------------------------|| 1.1 END OF GOOGLE ANALYTICS ||----------------------------------------------->
+	
+	
+	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
@@ -24,6 +38,48 @@
 </head>
 
 <body>
+
+<!---------------------------|| 2.1 FB MSG SCRIPT ||---------------------------------------->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=2009438209339213';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!---------------------------|| 2.1.1 FB ANALYTICS ||---------------------------------------->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '2009438209339213',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+
+<!------------------------------------------------------------------------------------------>
+
+
+
+
     <div class="wrapper">
 <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
             <!--
