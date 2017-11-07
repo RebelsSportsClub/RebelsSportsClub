@@ -4,10 +4,11 @@ var attempt = 300; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate(){
 var username = document.getElementById("username").value;
-var passwd = document.getElementById("password").value;
-if ( username == "m" && passwd == "123"){
-alert ("Login successfully");
-document.location.href = '../examples/dashboard.html' // Redirecting to other page.
+var password = document.getElementById("password").value;
+if ( username == "m" && password == "123"){
+document.location.href = '../examples/dashboard.html'
+alert ("Login successfull");
+return false;
 }
 else{
 attempt --;// Decrementing by one.
