@@ -512,17 +512,15 @@ $(document).ready(function () {
 
     /* ------------- video slide  -------------*/
 
-    var videoElement1 = $('#video01');
-	var videoElement2 = $('#video02');
+    var videoElement = $('#video01');
     $('.changeVideo').on('click', function () {
         var $this = $(this);
         var parentli = $this.parent('li');
         parentli.siblings('li').removeClass('active');
         var videourl = $this.data('yt-video');
         if(videoElement.data('current-video') !== videourl){
-			videoElement2.src = videourl;
-            //videoElement1.html('<iframe src="http://www.youtube.com/embed/' + videourl + '" class="liveVideo" allowfullscreen=""></iframe>');
-           // videoElement1.attr('data-current-video', videourl);
+            videoElement.html('<iframe src="http://www.youtube.com/embed/' + videourl + '" class="liveVideo" allowfullscreen=""></iframe>');
+            videoElement.attr('data-current-video', videourl);
         }
         parentli.addClass('active');
     });
