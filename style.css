@@ -9985,7 +9985,7 @@ a.blacklrnmore {
     color: #ffc7c9; }
 
 .memberimg {
-  height: 250px;
+  height: 350px;
   background-size: cover !important; }
 
 .clubfooter p {
@@ -10082,16 +10082,11 @@ ul.achievement.slick-slide.slick-current.slick-active {
 
 @media screen and (min-width: 992px) {
   .achievement .fig {
-    height: 350px; }
+    height: 200px; }
     .achievement .fig img {
-      -webkit-transform: scale(1);
-          -ms-transform: scale(1);
-              transform: scale(1);
-      transition: all 1s ease-in-out; }
-  .achievement li:hover .fig img {
-    -webkit-transform: scale(0.6);
-        -ms-transform: scale(0.6);
-            transform: scale(0.6); }
+		position: center;
+ }
+
   .figcontentachv .blog-detailsfooter01 {
     text-align: left; } }
 
