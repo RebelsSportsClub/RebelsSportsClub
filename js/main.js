@@ -519,7 +519,7 @@ $(document).ready(function () {
         parentli.siblings('li').removeClass('active');
         var videourl = $this.data('yt-video');
         if(videoElement.data('current-video') !== videourl){
-            videoElement.html('<iframe src="http://www.youtube.com/embed/' + videourl + '" class="liveVideo" allowfullscreen=""></iframe>');
+            videoElement.html('<iframe src="https://www.youtube.com/embed/' + videourl + '" class="liveVideo" allowfullscreen=""></iframe>');
             videoElement.attr('data-current-video', videourl);
         }
         parentli.addClass('active');
