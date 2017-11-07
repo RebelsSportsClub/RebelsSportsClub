@@ -51,6 +51,7 @@ _________________________________
 @import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -284,7 +285,11 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+    
+	src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot");
+	src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf") format("truetype");
+  }
 
 .glyphicon {
   position: relative;
