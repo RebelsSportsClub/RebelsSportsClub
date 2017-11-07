@@ -5,7 +5,7 @@ var attempt = 300; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "m" && password == "123"){
+if ( username == "rebelsuser" && password == "rebelbyblood"){
 document.location.href = '../examples/dashboard.html'
 alert ("Login successfull");
 return false;
