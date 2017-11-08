@@ -168,10 +168,10 @@ function cricketTab(){
 	document.getElementById("Team15-Fix-Date").innerHTML = "Mar 23 (Fri), 2018";
 	document.getElementById("Team15-Fix-Time").innerHTML = "9:00 PM";	
 
-	document.getElementById("hTeam15").innerHTML = "Qualifier 1";
-	document.getElementById("aTeam15").innerHTML = "Qualifier 2";
-	document.getElementById("Team15-Fix-Date").innerHTML = "Mar 31, 2018";
-	document.getElementById("Team15-Fix-Time").innerHTML = "7:00 PM";
+	document.getElementById("hTeam16").innerHTML = "Qualifier 1";
+	document.getElementById("aTeam16").innerHTML = "Qualifier 2";
+	document.getElementById("Team16-Fix-Date").innerHTML = "Mar 31, 2018";
+	document.getElementById("Team16-Fix-Time").innerHTML = "7:00 PM";
 
 
 	
