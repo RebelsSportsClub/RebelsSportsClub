@@ -15,7 +15,7 @@ function cricketTab(){
      document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team1-name').innerHTML  = 'Rebel Wolves';
 	 document.getElementById('latestResult-team1-result').innerHTML  = 'Lost';
-	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Bhanu Prathap Singh';
+	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Bhanu Prathap Singh - 8 Runs';
 	 
 	 
 	 document.getElementById('latestResult-team1-score').innerHTML  = '22/4';
@@ -29,7 +29,7 @@ function cricketTab(){
 	 document.getElementById('latestResult-badge2').style = 'background:url(images/team-logo/dragons.png)';
 	 document.getElementById('latestResult-team2-name').innerHTML  = 'Rebel Dragons';
 	 document.getElementById('latestResult-team2-result').innerHTML  = 'Won';
-	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jaspal Singh - 12*';
+	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jaspal Singh - 12* Runs';
 	 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	 
@@ -43,18 +43,18 @@ function cricketTab(){
 	 document.getElementById('nextMatch-p').innerHTML  = 'Upcomming match in the Rebels Winter League -2017';
 	 
 	 var logoimg1 = document.getElementById("nextMatch-logo1");
-	 logoimg1.src="images/matchResult/wolves.png";
+	 logoimg1.src="images/matchResult/dragons.png";
 	 
 	 var logoimg2 = document.getElementById("nextMatch-logo2");
-	 logoimg2.src="images/matchResult/dragons.png";
+	 logoimg2.src="images/matchResult/eagles.png";
 	 
-	 document.getElementById('nextMatch-dateTime').innerHTML  = 'Friday - November 10, 2017 | 7:00 PM';
+	 document.getElementById('nextMatch-dateTime').innerHTML  = 'Friday - November 17, 2017 | 8:30 PM';
 	 document.getElementById('nextMatch-place').innerHTML  = 'Regina (Canada)';
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	 
 	// Set the date we're counting down to
-	var countDownDate = new Date("Nov 10, 2017 18:00:00").getTime();
+	var countDownDate = new Date("Nov 17, 2017 20:30:00").getTime();
 	
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 
