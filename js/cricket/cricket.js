@@ -15,21 +15,21 @@ function cricketTab(){
      document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team1-name').innerHTML  = 'Rebel Wolves';
 	 document.getElementById('latestResult-team1-result').innerHTML  = 'Lost';
-	 document.getElementById('latestResult-team1-topScorer').innerHTML  = '';
+	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Bhanu Prathap Singh';
 	 
 	 
-	 document.getElementById('latestResult-team1-score').innerHTML  = '21/4';
-	 document.getElementById('latestResult-team2-score').innerHTML  = '22/1';
-	 document.getElementById('latestResult-date').innerHTML  = '04th November 2017 - ';
+	 document.getElementById('latestResult-team1-score').innerHTML  = '22/4';
+	 document.getElementById('latestResult-team2-score').innerHTML  = '34/1';
+	 document.getElementById('latestResult-date').innerHTML  = '11th November 2017 - ';
 	 document.getElementById('latestResult-time').innerHTML  = '7:00 PM';
 	 document.getElementById('latestResult-place').innerHTML  = 'Regina';
 	 document.getElementById('latestResult-country').innerHTML  = 'Canada';
 	 
 	 
-	 document.getElementById('latestResult-badge2').style = 'background:url(images/team-logo/eagles.png)';
-	 document.getElementById('latestResult-team2-name').innerHTML  = 'Rebel Eagles';
+	 document.getElementById('latestResult-badge2').style = 'background:url(images/team-logo/dragons.png)';
+	 document.getElementById('latestResult-team2-name').innerHTML  = 'Rebel Dragons';
 	 document.getElementById('latestResult-team2-result').innerHTML  = 'Won';
-	 document.getElementById('latestResult-team2-topScorer').innerHTML  = '';
+	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jaspal Singh - 12*';
 	 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	 
@@ -179,14 +179,14 @@ function cricketTab(){
 	
 	document.getElementById("pointsTable-p").innerHTML = "Rebels Winter League - 2017 points table";
 	
-	document.getElementById("pointTable-team1").innerHTML = "Rebel Eagles";
-	document.getElementById("teamPoint1").innerHTML = "2";
+	document.getElementById("pointTable-team1").innerHTML = "Rebel Dragons";
+	document.getElementById("teamPoint1").innerHTML = "4";
 	
 	document.getElementById("pointTable-team2").innerHTML = "Rebel Wolves";
 	document.getElementById("teamPoint2").innerHTML = "2";
 	
-	document.getElementById("pointTable-team3").innerHTML = "Rebel Dragons";
-	document.getElementById("teamPoint3").innerHTML = "0";
+	document.getElementById("pointTable-team3").innerHTML = "Rebel Eagles";
+	document.getElementById("teamPoint3").innerHTML = "2";
 	
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
