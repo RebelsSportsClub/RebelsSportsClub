@@ -15,7 +15,7 @@ function cricketTab(){
      document.getElementById('latestResult-badge1').style = 'background:url(images/team-logo/wolves.png)';
 	 document.getElementById('latestResult-team1-name').innerHTML  = 'Rebel Wolves';
 	 document.getElementById('latestResult-team1-result').innerHTML  = 'Lost';
-	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Bhanu Prathap Singh - 8 Runs';
+	 document.getElementById('latestResult-team1-topScorer').innerHTML  = 'Bhanu - 8 Runs';
 	 
 	 
 	 document.getElementById('latestResult-team1-score').innerHTML  = '22/4';
@@ -29,7 +29,7 @@ function cricketTab(){
 	 document.getElementById('latestResult-badge2').style = 'background:url(images/team-logo/dragons.png)';
 	 document.getElementById('latestResult-team2-name').innerHTML  = 'Rebel Dragons';
 	 document.getElementById('latestResult-team2-result').innerHTML  = 'Won';
-	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jaspal Singh - 12* Runs';
+	 document.getElementById('latestResult-team2-topScorer').innerHTML  = 'Jaspal - 12* Runs';
 	 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	 
