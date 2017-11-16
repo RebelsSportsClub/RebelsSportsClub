@@ -3568,7 +3568,7 @@ ul.slick-dots li button:hover{background:#b81e20;color:white;border-color:#b81e2
 .item img{display:block;max-width:100%;}
 @media screen and (min-width:480px){.item{width:50%;}
 }
-@media screen and (min-width:768px){.item{width:25%; padding: 2px;}
+@media screen and (min-width:768px){.item{width:25%;}
 .item.gallery-item-width2{width:50%;}
 .item.gallery-item-width3{width:75%;}
 }
