@@ -180,12 +180,12 @@ function cricketTab(){
 	document.getElementById("pointsTable-p").innerHTML = "Rebels Winter League - 2017 points table";
 	
 	document.getElementById("pointTable-team1").innerHTML = "Rebel Dragons";
-	document.getElementById("teamPoint1").innerHTML = "4";
+	document.getElementById("teamPoint1").innerHTML = "6";
 	
-	document.getElementById("pointTable-team2").innerHTML = "Rebel Wolves";
-	document.getElementById("teamPoint2").innerHTML = "2";
+	document.getElementById("pointTable-team2").innerHTML = "Rebel Dragons";
+	document.getElementById("teamPoint2").innerHTML = "4";
 	
-	document.getElementById("pointTable-team3").innerHTML = "Rebel Eagles";
+	document.getElementById("pointTable-team3").innerHTML = "Rebel Wolves";
 	document.getElementById("teamPoint3").innerHTML = "2";
 	
 
